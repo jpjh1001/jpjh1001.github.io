@@ -1,0 +1,30 @@
+body {
+  background-image: url('/blog/1920_epsrc-290721-brainartificialintelligence-gettyimages-1186776186.jpg');
+  color:aliceblue;
+}
+h1 {
+  color:rgb(166, 205, 252);
+}
+
+
+.nav-bar{
+  text-align: center;
+  font-size: 35px;
+  margin-top:20px;
+  margin-bottom: 100px;
+}
+
+a:link, a:visited {
+  color:rgb(166, 205, 252);
+  background-color: transparent;
+  text-decoration: none;
+  margin-right:25px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
