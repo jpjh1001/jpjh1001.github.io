@@ -1,0 +1,56 @@
+body{
+
+  background-color: aliceblue;
+  font-family: ubuntu;
+}
+
+
+h1 {
+  color:rgb(73, 102, 233);
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+
+
+.center, figcaption{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+figcaption {
+  margin-bottom: 70px;
+}
+
+
+.header {
+
+  text-align: center;
+  color:rgb(73, 102, 233);
+  margin-bottom: 80px;
+}
+.Te-Houtaewa {
+  text-align: right;
+  
+}
+
+.margin-image {
+  height: 300px;
+  width:  600px;
+
+}
+
+.margin-padding-image {
+  width: 600px;
+}
+
+a:link, a:visited {
+  color: rgb(251, 99, 99);
+  background-color: transparent;
+  text-decoration: none;
+  margin-right:10px;
+}
