@@ -1,0 +1,35 @@
+body {
+  background-image: url('https://businessday.ng/wp-content/uploads/2022/06/Layer3.png');
+  height:100%;
+  width: 100%;
+  color:aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+h1 {
+  color:rgb(166, 205, 252);
+}
+
+
+.nav-bar{
+  text-align: center;
+  font-size: 35px;
+  margin-top:20px;
+  margin-bottom: 100px;
+}
+
+a:link, a:visited {
+  color:rgb(166, 205, 252);
+  background-color: transparent;
+  text-decoration: none;
+  margin-right:25px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
