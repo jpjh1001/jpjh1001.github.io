@@ -1,11 +1,33 @@
-body {
+.home-background {
   background-image: url('/blog/1920_epsrc-290721-brainartificialintelligence-gettyimages-1186776186.jpg');
   color:aliceblue;
 }
-h1 {
-  color:rgb(166, 205, 252);
+
+
+.tech-background {
+  background-image: url('https://businessday.ng/wp-content/uploads/2022/06/Layer3.png');
+  height:100%;
+  width: 100%;
+  color:aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
+.core-background {
+  background-image: url('/styles/7R5YuYv7zFpd2NWXCnsUGM-1920-80.jpg.webp');
+  height:100%;
+  color:aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1 {
+  color:rgb(166, 205, 252);
+  font-weight: bold;
+  text-align: center;
+}
 
 .nav-bar{
   text-align: center;
@@ -27,4 +49,60 @@ footer{
   width: 100%;
   color: white;
   font-size: 20px;
+}
+
+.questions {
+  font-weight: bold;
+  }
+
+  body{
+
+    background-color: aliceblue;
+    font-family: ubuntu;
+  }
+  
+
+  a:link, a:visited {
+    color: rgb(251, 99, 99);
+    background-color: transparent;
+    text-decoration: none;
+    margin-right:10px;
+  }
+  
+  
+
+
+
+  .center, figcaption{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+figcaption {
+  margin-bottom: 70px;
+}
+
+
+.header {
+
+  text-align: center;
+  color:rgb(73, 102, 233);
+  margin-bottom: 80px;
+}
+.Te-Houtaewa {
+  text-align: right;
+  
+}
+
+.margin-image {
+  height: 300px;
+  width:  600px;
+
+}
+
+.margin-padding-image {
+  width: 600px;
 }
