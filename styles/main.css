@@ -1,14 +1,19 @@
 .home-background {
   background-image: url('/blog/1920_epsrc-290721-brainartificialintelligence-gettyimages-1186776186.jpg');
   color:aliceblue;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 .tech-background {
   background-image: url('https://businessday.ng/wp-content/uploads/2022/06/Layer3.png');
-  height:100%;
   width: 100%;
   color:aliceblue;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -20,6 +25,7 @@
   color:aliceblue;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -59,6 +65,11 @@ footer{
 
     background-color: aliceblue;
     font-family: ubuntu;
+    height: 100%;
+  }
+
+  html {
+    height: 100%;
   }
   
 
