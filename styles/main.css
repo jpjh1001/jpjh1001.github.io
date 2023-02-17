@@ -80,10 +80,6 @@ footer{
     margin-right:10px;
   }
   
-  
-
-
-
   .center, figcaption{
   display: block;
   margin-left: auto;
@@ -108,12 +104,52 @@ figcaption {
   
 }
 
-.margin-image {
-  height: 300px;
-  width:  600px;
+.margin-image, .margin-padding-image, .padding-image {
+  
+  max-width: 100%;
 
 }
 
-.margin-padding-image {
-  width: 600px;
+
+
+@media (max-width: 330px) {
+ p {
+    font-size: auto;
+  }
+
+  body{
+    width: auto;
+
+  }
 }
+
+
+/* @media (max-width: 43rem){
+  body {
+    background-color: pink;
+  }
+  .block {
+    width: 400px;
+  }
+}
+
+
+ @media (min-width: 43rem){
+  body {
+    background-color: yellow;
+  }
+}
+
+
+@media (min-width: 62rem){
+  body {
+    background-color: red;
+  }
+}
+
+
+@media (min-width: 82rem){
+  body {
+    background-color: blue;
+  }
+}  */
